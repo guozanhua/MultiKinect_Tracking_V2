@@ -1,0 +1,28 @@
+﻿Build started 1/22/2016 1:29:28 PM.
+     1>Project "F:\C++ project\MultiKinect_Tracking_V2\MultiKinect_Tracking_V2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp
+         Controller.cpp
+     1>f:\c++ project\multikinect_tracking_v2\databuffer.h(12): warning C4091: 'typedef ' : ignored on left of 'TrilaterationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\databuffer.h(19): warning C4091: 'typedef ' : ignored on left of 'TrilaterationNode' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\databuffer.h(27): warning C4091: 'typedef ' : ignored on left of 'TimingMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\databuffer.h(33): warning C4091: 'typedef ' : ignored on left of 'CalibrationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\sever.h(11): warning C4091: 'typedef ' : ignored on left of 'SeverBuffer' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\sever.h(17): warning C4091: 'typedef ' : ignored on left of 'ProofreadMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\sever.h(32): warning C4091: 'typedef ' : ignored on left of 'ThreadParam' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2\controller.cpp(237): warning C4244: 'argument' : conversion from 'LLONG' to 'INT', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++ project\MultiKinect_Tracking_V2\Debug\MultiKinect_Tracking_V2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\C++ project\MultiKinect_Tracking_V2\Debug\MultiKinect_Tracking_V2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++ project\MultiKinect_Tracking_V2\Debug\MultiKinect_Tracking_V2.lib" /MACHINE:X86 Debug\MultiKinect_Tracking_V2.res
+         Debug\Controller.obj
+         Debug\HRC.obj
+         Debug\Main.obj
+         Debug\Sever.obj
+         Debug\DataBuffer.obj
+         Debug\trilateration.obj
+         Debug\vision.obj
+         MultiKinect_Tracking_V2.vcxproj -> F:\C++ project\MultiKinect_Tracking_V2\Debug\MultiKinect_Tracking_V2.exe
+     1>Done Building Project "F:\C++ project\MultiKinect_Tracking_V2\MultiKinect_Tracking_V2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.98
